@@ -1,3 +1,8 @@
 ---
 - include_tasks: versioncheck.yml
   when: submodules_versioncheck|bool
+
+- name: install acmetool from fixed url
+  become: true
+  apt:
+    deb: "{{ acmetool_fix__deb }}"
