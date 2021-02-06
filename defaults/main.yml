@@ -2,5 +2,5 @@
 # should we do a version check? (recomended)
 submodules_versioncheck: false
 
-acmetool_fix__deb: http://ftp.de.debian.org/debian/pool/main/a/acmetool/acmetool_0.2.1-4_amd64.deb
-
+# where to download acmetool for debian?
+acmetool_fix__deb: 'http://ftp.de.debian.org/debian/pool/main/a/acmetool/acmetool_0.2.1-4_amd64.deb'
