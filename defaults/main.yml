@@ -3,4 +3,4 @@
 submodules_versioncheck: false
 
 # where to download acmetool for debian?
-acmetool_fix__deb: 'http://ftp.de.debian.org/debian/pool/main/a/acmetool/acmetool_0.2.1-4_amd64.deb'
+acmetool_fix__deb: 'https://debian.ethz.ch/debian/pool/main/a/acmetool/acmetool_0.2.1-4+b1_amd64.deb'
